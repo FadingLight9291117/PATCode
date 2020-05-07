@@ -1,3 +1,6 @@
+/*
+    暂时搁置
+*/
 #include <stdio.h>
 const char digit[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 int findNumber(char c)
@@ -41,5 +44,6 @@ int main()
         n2[i++] = temp;
     }
     scanf("%d %d", &tag, &radix);
+    // for (int i = 2; i < )
     return 0;
 }

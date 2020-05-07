@@ -2,9 +2,9 @@
 #include<stdio.h>
 #include<map>
 using namespace std;
-// ÕýÈ·
+// ï¿½ï¿½È·
 int PATCode1011() {
-	// 1. ÊäÈë
+	// 1. ï¿½ï¿½ï¿½ï¿½
 	double a[3], b[3], c[3];
 	for (int i = 0; i < 3; i++) {
 		cin >> a[i];
@@ -16,7 +16,7 @@ int PATCode1011() {
 		cin >> c[i];
 	}
 
-	// 2. ¼ÆËã
+	// 2. ï¿½ï¿½ï¿½ï¿½
 	int max1 = 0, max2 = 0, max3 = 0;
 	for (int i = 0; i < 3; i++) {
 		if (a[i] > a[max1]) {
@@ -41,7 +41,7 @@ int PATCode1011() {
 	m[1] = 'T';
 	m[2] = 'L';
 
-	// 3. Êä³ö
+	// 3. ï¿½ï¿½ï¿½
 	cout << m[max1] << " " << m[max2] << " " << m[max3] << " ";
 	printf("%.2lf", profit);
 
